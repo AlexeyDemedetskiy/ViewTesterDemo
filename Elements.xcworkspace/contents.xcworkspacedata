@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:Common data"
+      name = "Common">
+      <Group
+         location = "group:TheElements/Images"
+         name = "Images">
+         <Group
+            location = "group:TheElements/Images"
+            name = "Default">
+            <FileRef
+               location = "group:TheElements/Images/Default/Default.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Default/Default@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Default/Default-568h@2x.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:TheElements/Images/flipper_list_blue.png">
+         </FileRef>
+         <Group
+            location = "group:TheElements/Images"
+            name = "Tab Bar Images">
+            <FileRef
+               location = "group:TheElements/Images/name_gray.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/number_gray.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/state_gray.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/symbol_gray.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/table_gray.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:TheElements/Images"
+            name = "Element Backgrounds">
+            <FileRef
+               location = "group:TheElements/Images/Artificial_37.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Gas_30.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Solid_30.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Artificial_30.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Liquid_30.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Gas_37.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Liquid_37.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Solid_37.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Artificial_24.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Artificial_256.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Gas_24.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Gas_256.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Liquid_24.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Liquid_256.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Solid_24.png">
+            </FileRef>
+            <FileRef
+               location = "group:TheElements/Images/Solid_256.png">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Elements.plist">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:TheNewElements/Elements/Elements.xcodeproj">
    </FileRef>
