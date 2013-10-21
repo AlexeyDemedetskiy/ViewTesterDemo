@@ -100,9 +100,9 @@
       </FileRef>
    </Group>
    <FileRef
-      location = "group:TheNewElements/Elements/Elements.xcodeproj">
+      location = "group:TheElements/MVC.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:TheElements/TheElements.xcodeproj">
+      location = "group:TheNewElements/Elements/MVVM.xcodeproj">
    </FileRef>
 </Workspace>

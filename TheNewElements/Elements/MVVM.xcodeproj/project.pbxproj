@@ -32,20 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48C50FDA181597A9002D25AD /* Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C50FDA181597A9002D25AD /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C50FDD181597A9002D25AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48C50FDF181597A9002D25AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		48C50FE1181597A9002D25AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		48C50FE5181597A9002D25AD /* Elements-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Elements-Info.plist"; sourceTree = "<group>"; };
+		48C50FE5181597A9002D25AD /* MVVM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVVM-Info.plist"; sourceTree = "<group>"; };
 		48C50FE7181597A9002D25AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48C50FE9181597A9002D25AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		48C50FEB181597A9002D25AD /* Elements-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Elements-Prefix.pch"; sourceTree = "<group>"; };
+		48C50FEB181597A9002D25AD /* MVVM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVVM-Prefix.pch"; sourceTree = "<group>"; };
 		48C50FEC181597A9002D25AD /* DLGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLGAppDelegate.h; sourceTree = "<group>"; };
 		48C50FED181597A9002D25AD /* DLGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLGAppDelegate.m; sourceTree = "<group>"; };
 		48C50FEF181597A9002D25AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		48C50FF5181597A9002D25AD /* ElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C50FF5181597A9002D25AD /* MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C50FF6181597A9002D25AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		48C50FFE181597A9002D25AD /* ElementsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElementsTests-Info.plist"; sourceTree = "<group>"; };
+		48C50FFE181597A9002D25AD /* MVVMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVVMTests-Info.plist"; sourceTree = "<group>"; };
 		48C51000181597A9002D25AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48C51002181597A9002D25AD /* ElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +87,8 @@
 		48C50FDB181597A9002D25AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48C50FDA181597A9002D25AD /* Elements.app */,
-				48C50FF5181597A9002D25AD /* ElementsTests.xctest */,
+				48C50FDA181597A9002D25AD /* MVVM.app */,
+				48C50FF5181597A9002D25AD /* MVVMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,10 +118,10 @@
 		48C50FE4181597A9002D25AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48C50FE5181597A9002D25AD /* Elements-Info.plist */,
+				48C50FE5181597A9002D25AD /* MVVM-Info.plist */,
 				48C50FE6181597A9002D25AD /* InfoPlist.strings */,
 				48C50FE9181597A9002D25AD /* main.m */,
-				48C50FEB181597A9002D25AD /* Elements-Prefix.pch */,
+				48C50FEB181597A9002D25AD /* MVVM-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 		48C50FFD181597A9002D25AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48C50FFE181597A9002D25AD /* ElementsTests-Info.plist */,
+				48C50FFE181597A9002D25AD /* MVVMTests-Info.plist */,
 				48C50FFF181597A9002D25AD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48C50FD9181597A9002D25AD /* Elements */ = {
+		48C50FD9181597A9002D25AD /* MVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48C51006181597A9002D25AD /* Build configuration list for PBXNativeTarget "Elements" */;
+			buildConfigurationList = 48C51006181597A9002D25AD /* Build configuration list for PBXNativeTarget "MVVM" */;
 			buildPhases = (
 				48C50FD6181597A9002D25AD /* Sources */,
 				48C50FD7181597A9002D25AD /* Frameworks */,
@@ -159,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = Elements;
+			name = MVVM;
 			productName = Elements;
-			productReference = 48C50FDA181597A9002D25AD /* Elements.app */;
+			productReference = 48C50FDA181597A9002D25AD /* MVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48C50FF4181597A9002D25AD /* ElementsTests */ = {
+		48C50FF4181597A9002D25AD /* MVVMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48C51009181597A9002D25AD /* Build configuration list for PBXNativeTarget "ElementsTests" */;
+			buildConfigurationList = 48C51009181597A9002D25AD /* Build configuration list for PBXNativeTarget "MVVMTests" */;
 			buildPhases = (
 				48C50FF1181597A9002D25AD /* Sources */,
 				48C50FF2181597A9002D25AD /* Frameworks */,
@@ -177,9 +177,9 @@
 			dependencies = (
 				48C50FFB181597A9002D25AD /* PBXTargetDependency */,
 			);
-			name = ElementsTests;
+			name = MVVMTests;
 			productName = ElementsTests;
-			productReference = 48C50FF5181597A9002D25AD /* ElementsTests.xctest */;
+			productReference = 48C50FF5181597A9002D25AD /* MVVMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 48C50FD5181597A9002D25AD /* Build configuration list for PBXProject "Elements" */;
+			buildConfigurationList = 48C50FD5181597A9002D25AD /* Build configuration list for PBXProject "MVVM" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,8 +209,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48C50FD9181597A9002D25AD /* Elements */,
-				48C50FF4181597A9002D25AD /* ElementsTests */,
+				48C50FD9181597A9002D25AD /* MVVM */,
+				48C50FF4181597A9002D25AD /* MVVMTests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 /* Begin PBXTargetDependency section */
 		48C50FFB181597A9002D25AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48C50FD9181597A9002D25AD /* Elements */;
+			target = 48C50FD9181597A9002D25AD /* MVVM */;
 			targetProxy = 48C50FFA181597A9002D25AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,9 +361,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Elements/Elements-Prefix.pch";
-				INFOPLIST_FILE = "Elements/Elements-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Elements/MVVM-Prefix.pch";
+				INFOPLIST_FILE = "Elements/MVVM-Info.plist";
+				PRODUCT_NAME = MVVM;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,9 +374,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Elements/Elements-Prefix.pch";
-				INFOPLIST_FILE = "Elements/Elements-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Elements/MVVM-Prefix.pch";
+				INFOPLIST_FILE = "Elements/MVVM-Info.plist";
+				PRODUCT_NAME = MVVM;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -397,8 +397,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ElementsTests/ElementsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ElementsTests/MVVMTests-Info.plist";
+				PRODUCT_NAME = MVVMTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -416,8 +416,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Elements/Elements-Prefix.pch";
-				INFOPLIST_FILE = "ElementsTests/ElementsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ElementsTests/MVVMTests-Info.plist";
+				PRODUCT_NAME = MVVMTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -426,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48C50FD5181597A9002D25AD /* Build configuration list for PBXProject "Elements" */ = {
+		48C50FD5181597A9002D25AD /* Build configuration list for PBXProject "MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48C51004181597A9002D25AD /* Debug */,
@@ -435,21 +435,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48C51006181597A9002D25AD /* Build configuration list for PBXNativeTarget "Elements" */ = {
+		48C51006181597A9002D25AD /* Build configuration list for PBXNativeTarget "MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48C51007181597A9002D25AD /* Debug */,
 				48C51008181597A9002D25AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		48C51009181597A9002D25AD /* Build configuration list for PBXNativeTarget "ElementsTests" */ = {
+		48C51009181597A9002D25AD /* Build configuration list for PBXNativeTarget "MVVMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48C5100A181597A9002D25AD /* Debug */,
 				48C5100B181597A9002D25AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
