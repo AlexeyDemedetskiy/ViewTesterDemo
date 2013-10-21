@@ -262,6 +262,7 @@
 				C8DE427D0D581B7B00AFE181 /* PeriodicElements.m */,
 			);
 			name = "Data Model";
+			path = "../../Common data/Data Model";
 			sourceTree = "<group>";
 		};
 		C83CD92B0D5822A80066AE4B /* View Controllers */ = {

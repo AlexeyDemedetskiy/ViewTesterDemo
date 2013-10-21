@@ -5,6 +5,22 @@
       location = "container:Common data"
       name = "Common">
       <Group
+         location = "group:Data Model"
+         name = "Data Model">
+         <FileRef
+            location = "group:AtomicElement.h">
+         </FileRef>
+         <FileRef
+            location = "group:AtomicElement.m">
+         </FileRef>
+         <FileRef
+            location = "group:PeriodicElements.h">
+         </FileRef>
+         <FileRef
+            location = "group:PeriodicElements.m">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:TheElements/Images"
          name = "Images">
          <Group
