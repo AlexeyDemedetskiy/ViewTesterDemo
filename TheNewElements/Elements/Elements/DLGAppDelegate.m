@@ -7,15 +7,23 @@
 //
 
 #import "DLGAppDelegate.h"
+#import "DLGAppController.h"
+
+@interface DLGAppDelegate ()
+
+@property (nonatomic, strong) DLGAppController* appController;
+
+@end
 
 @implementation DLGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    self.appController = [[DLGAppController alloc] init];
+    
+    [self.appController startAppInWindow:self.window];
+    
     return YES;
 }
 

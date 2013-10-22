@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48A5E7621815AA04004C1A81 /* DLGAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5E7611815AA04004C1A81 /* DLGAppController.m */; };
+		48A5E7651815B649004C1A81 /* DLGElementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5E7641815B649004C1A81 /* DLGElementsViewController.m */; };
+		48A5E7681815B660004C1A81 /* DLGElementsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5E7671815B660004C1A81 /* DLGElementsView.m */; };
+		48A5E76E1815B8B3004C1A81 /* AtomicElement.h in Resources */ = {isa = PBXBuildFile; fileRef = 48A5E7691815B8B3004C1A81 /* AtomicElement.h */; };
+		48A5E76F1815B8B3004C1A81 /* AtomicElement.m in Resources */ = {isa = PBXBuildFile; fileRef = 48A5E76A1815B8B3004C1A81 /* AtomicElement.m */; };
+		48A5E7701815B8B3004C1A81 /* PeriodicElements.h in Resources */ = {isa = PBXBuildFile; fileRef = 48A5E76B1815B8B3004C1A81 /* PeriodicElements.h */; };
+		48A5E7711815B8B3004C1A81 /* PeriodicElements.m in Resources */ = {isa = PBXBuildFile; fileRef = 48A5E76C1815B8B3004C1A81 /* PeriodicElements.m */; };
 		48C50FDE181597A9002D25AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C50FDD181597A9002D25AD /* Foundation.framework */; };
 		48C50FE0181597A9002D25AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C50FDF181597A9002D25AD /* CoreGraphics.framework */; };
 		48C50FE2181597A9002D25AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C50FE1181597A9002D25AD /* UIKit.framework */; };
@@ -32,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48A5E7601815AA04004C1A81 /* DLGAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGAppController.h; sourceTree = "<group>"; };
+		48A5E7611815AA04004C1A81 /* DLGAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGAppController.m; sourceTree = "<group>"; };
+		48A5E7631815B649004C1A81 /* DLGElementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGElementsViewController.h; sourceTree = "<group>"; };
+		48A5E7641815B649004C1A81 /* DLGElementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGElementsViewController.m; sourceTree = "<group>"; };
+		48A5E7661815B660004C1A81 /* DLGElementsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLGElementsView.h; sourceTree = "<group>"; };
+		48A5E7671815B660004C1A81 /* DLGElementsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGElementsView.m; sourceTree = "<group>"; };
+		48A5E7691815B8B3004C1A81 /* AtomicElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = AtomicElement.h; sourceTree = "<group>"; };
+		48A5E76A1815B8B3004C1A81 /* AtomicElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = AtomicElement.m; sourceTree = "<group>"; };
+		48A5E76B1815B8B3004C1A81 /* PeriodicElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = PeriodicElements.h; sourceTree = "<group>"; };
+		48A5E76C1815B8B3004C1A81 /* PeriodicElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = PeriodicElements.m; sourceTree = "<group>"; };
 		48C50FDA181597A9002D25AD /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C50FDD181597A9002D25AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48C50FDF181597A9002D25AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,9 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48A5E76D1815B8B3004C1A81 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				48A5E7691815B8B3004C1A81 /* AtomicElement.h */,
+				48A5E76A1815B8B3004C1A81 /* AtomicElement.m */,
+				48A5E76B1815B8B3004C1A81 /* PeriodicElements.h */,
+				48A5E76C1815B8B3004C1A81 /* PeriodicElements.m */,
+			);
+			name = "Data Model";
+			path = "../../Common data/Data Model";
+			sourceTree = "<group>";
+		};
 		48C50FD1181597A9002D25AD = {
 			isa = PBXGroup;
 			children = (
+				48A5E76D1815B8B3004C1A81 /* Data Model */,
 				48C50FE3181597A9002D25AD /* Elements */,
 				48C50FFC181597A9002D25AD /* ElementsTests */,
 				48C50FDC181597A9002D25AD /* Frameworks */,
@@ -111,6 +141,12 @@
 				48C50FED181597A9002D25AD /* DLGAppDelegate.m */,
 				48C50FEF181597A9002D25AD /* Images.xcassets */,
 				48C50FE4181597A9002D25AD /* Supporting Files */,
+				48A5E7601815AA04004C1A81 /* DLGAppController.h */,
+				48A5E7611815AA04004C1A81 /* DLGAppController.m */,
+				48A5E7631815B649004C1A81 /* DLGElementsViewController.h */,
+				48A5E7641815B649004C1A81 /* DLGElementsViewController.m */,
+				48A5E7661815B660004C1A81 /* DLGElementsView.h */,
+				48A5E7671815B660004C1A81 /* DLGElementsView.m */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -221,7 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C50FE8181597A9002D25AD /* InfoPlist.strings in Resources */,
+				48A5E7701815B8B3004C1A81 /* PeriodicElements.h in Resources */,
+				48A5E76F1815B8B3004C1A81 /* AtomicElement.m in Resources */,
+				48A5E76E1815B8B3004C1A81 /* AtomicElement.h in Resources */,
 				48C50FF0181597A9002D25AD /* Images.xcassets in Resources */,
+				48A5E7711815B8B3004C1A81 /* PeriodicElements.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A5E7621815AA04004C1A81 /* DLGAppController.m in Sources */,
+				48A5E7681815B660004C1A81 /* DLGElementsView.m in Sources */,
+				48A5E7651815B649004C1A81 /* DLGElementsViewController.m in Sources */,
 				48C50FEE181597A9002D25AD /* DLGAppDelegate.m in Sources */,
 				48C50FEA181597A9002D25AD /* main.m in Sources */,
 			);
